@@ -1,0 +1,85 @@
+###################################################################################################
+Scenario: Remove Duplicates from a Table
+
+Table: employees
+id	name	department	salary
+1	John Doe	HR	5000
+2	Jane Smith	IT	6000
+3	John Doe	HR	5000
+4	Alice Lee	IT	7000
+5	John Doe	HR	5000
+
+Query to Remove Duplicates
+DELETE FROM employees
+WHERE id NOT IN (
+    SELECT MIN(id)
+    FROM employees
+    GROUP BY name, department, salary
+);
+
+Explanation:
+GROUP BY:
+Groups rows based on name, department, and salary (or any columns that define duplicates).
+MIN(id):
+Keeps the row with the smallest id for each group of duplicates.
+DELETE:
+Deletes all rows where the id is not the smallest for that group.
+
+###################################################################################################
+Scenario:
+You want to find the second highest salary from the employees table.
+
+SELECT MAX(salary) AS second_highest_salary
+FROM employees
+WHERE salary < (SELECT MAX(salary) FROM employees);
+
+Explanation:
+The subquery finds the highest salary.
+The outer query finds the maximum salary that is less than the highest salary.
+
+###################################################################################################
+Scenario:
+You want to find employees whose salary is greater than the average salary of their department.
+
+SELECT e.id, e.name, e.department, e.salary
+FROM employees e
+JOIN (
+    SELECT department, AVG(salary) AS avg_salary
+    FROM employees
+    GROUP BY department
+) dept_avg
+ON e.department = dept_avg.department
+WHERE e.salary > dept_avg.avg_salary;
+
+Explanation:
+The subquery calculates the average salary for each department.
+The outer query joins the subquery and filters employees whose salary is greater than their department's average.
+
+###################################################################################################
+Scenario:
+You want to find consecutive rows where the department is the same.
+
+SELECT id, name, department, salary
+FROM (
+    SELECT id, name, department, salary,
+           LAG(department) OVER (ORDER BY id) AS prev_department
+    FROM employees
+) subquery
+WHERE department = prev_department;
+
+Explanation:
+LAG() gets the value of the department column from the previous row.
+The outer query filters rows where the current department matches the previous row's department.
+
+###################################################################################################
+Scenario:
+You want to find the top 3 highest salaries.
+
+SELECT DISTINCT salary
+FROM employees
+ORDER BY salary DESC
+LIMIT 3;
+
+Explanation:
+ORDER BY salary DESC sorts salaries in descending order.
+LIMIT 3 selects the top 3 salaries.
