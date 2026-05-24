@@ -1,7 +1,8 @@
 <div align="center">
 
 <!-- Dynamic header banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1F4E79&height=200&section=header&text=Ashish%20Kumar&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Staff%20QA%20Automation%20Engineer%20%7C%20Test%20Architect%20%7C%20CI%2FCD%20%26%20Cloud&descAlignY=55&descSize=18&descColor=BDD7EE"/>
+<h1 align="center">Hi, I'm Ashish Kumar 👋</h1>
+<h3 align="center">Staff QA Automation Engineer | Test Architect | CI/CD & Cloud | 12+ Years</h3>
 
 <!-- Badges -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashish-kumar-215a3760)
