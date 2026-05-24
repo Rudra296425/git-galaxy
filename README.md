@@ -178,12 +178,16 @@ class AshishKumar:
 
 ---
 
-## 📈 GitHub Stats
+## 📈 Activity
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Rudra296425&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&title_color=2E75B6&icon_color=2E75B6&border_color=1F4E79"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rudra296425&layout=compact&langs_count=8&theme=github_dark&title_color=2E75B6&border_color=1F4E79"/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=Rudra296425&color=2E75B6&style=for-the-badge&label=PROFILE+VIEWS)
+![Repos](https://img.shields.io/badge/Public%20Repos-3-1F4E79?style=for-the-badge&logo=github&logoColor=white)
+![Open to Work](https://img.shields.io/badge/Open%20to-Staff%20QA%20Roles-22c55e?style=for-the-badge&logo=briefcase&logoColor=white)
+
 </div>
+
 ---
 
 ## 📁 Pinned Repositories *(Coming Soon)*
