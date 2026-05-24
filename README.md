@@ -167,14 +167,14 @@ class AshishKumar:
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Rudra296425&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&title_color=2E75B6&icon_color=2E75B6&border_color=1F4E79"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rudra296425&layout=compact&langs_count=8&theme=github_dark&title_color=2E75B6&border_color=1F4E79"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ashishkumar&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&title_color=2E75B6&icon_color=2E75B6&border_color=1F4E79"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ashishkumar&layout=compact&langs_count=8&theme=github_dark&title_color=2E75B6&border_color=1F4E79"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Rudra296425&theme=github-dark-blue&border=1F4E79&ring=2E75B6&fire=2E75B6&currStreakLabel=2E75B6)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=ashishkumar&theme=github-dark-blue&border=1F4E79&ring=2E75B6&fire=2E75B6&currStreakLabel=2E75B6)](https://git.io/streak-stats)
 
 </div>
 
