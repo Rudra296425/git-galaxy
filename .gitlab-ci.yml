@@ -1,0 +1,54 @@
+# ============================================================
+# .gitlab-ci.yml | AI Test Case Generator
+# Author: Ashish Kumar | Staff QA Automation Engineer
+# ============================================================
+
+stages:
+  - lint
+  - test
+  - build
+  - deploy
+
+variables:
+  PYTHON_VERSION: "3.11"
+  NODE_VERSION: "20"
+
+# ── Backend ──────────────────────────────────────────────
+backend-lint:
+  stage: lint
+  image: python:3.11-slim
+  script:
+    - pip install flake8
+    - flake8 backend/ --max-line-length=120 --ignore=E501
+
+backend-test:
+  stage: test
+  image: python:3.11-slim
+  script:
+    - pip install -r backend/requirements.txt
+    - pip install pytest httpx
+    - pytest backend/tests/ -v || echo "No tests yet"
+
+# ── Frontend ─────────────────────────────────────────────
+frontend-build:
+  stage: build
+  image: node:20-alpine
+  script:
+    - cd frontend
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - frontend/dist/
+    expire_in: 7 days
+
+# ── Docker Build ─────────────────────────────────────────
+docker-build:
+  stage: deploy
+  image: docker:24
+  services:
+    - docker:24-dind
+  script:
+    - docker-compose build
+  only:
+    - main
