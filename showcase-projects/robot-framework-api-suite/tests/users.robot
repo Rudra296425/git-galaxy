@@ -13,3 +13,13 @@ Get A User Returns Required Fields
 Get A User Has Expected Identifier
     ${response}=    Get User    2
     Should Be Equal As Integers    ${response.json()}[id]    2
+
+List Posts For A User
+    [Tags]    regression
+    ${response}=    List Posts For User    1
+    Should Be Equal As Integers    ${response.json()}[0][userId]    1
+
+Create A Post
+    [Tags]    write
+    ${response}=    Create Post    QA portfolio    Demonstrates API automation
+    Dictionary Should Contain Key    ${response.json()}    id
