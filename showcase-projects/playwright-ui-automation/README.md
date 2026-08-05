@@ -2,6 +2,8 @@
 
 A browser-test template using Playwright Test and the Page Object Model. The example stays local to avoid an external website dependency.
 
+See the [architecture and sample report](docs/architecture.md).
+
 ## Run locally
 
 ```bash

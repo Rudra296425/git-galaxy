@@ -2,6 +2,8 @@
 
 A maintainable Robot Framework API test template using a reusable resource file, tags, and deterministic public demo data.
 
+See the [architecture and sample report](docs/architecture.md).
+
 ## Run locally
 
 ```bash
