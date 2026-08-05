@@ -1,201 +1,56 @@
-<div align="center">
+# Git Galaxy
 
-<!-- Dynamic header banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1F4E79&height=200&section=header&text=Ashish%20Kumar&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Staff%20QA%20Automation%20Engineer%20%7C%20Test%20Architect%20%7C%20CI%2FCD%20%26%20Cloud&descAlignY=55&descSize=18&descColor=BDD7EE"/>
+A collection of programming exercises, QA automation examples, and Python learning projects.
 
-<!-- Badges -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashish-kumar-215a3760)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ashishkumar683768@gmail.com)
-[![Location](https://img.shields.io/badge/Bangalore%2C%20India-1F4E79?style=for-the-badge&logo=googlemaps&logoColor=white)]()
-[![Experience](https://img.shields.io/badge/12%2B%20Years%20Experience-2E75B6?style=for-the-badge&logo=buffer&logoColor=white)]()
+This repository is a learning archive rather than a single application. Its most self-contained runnable example is the interactive calculator in [`calci_python/`](calci_python/).
 
-<br/>
+## Contents
 
-<!-- Typing animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E75B6&center=true&vCenter=true&width=700&lines=Staff+QA+Automation+Engineer+%F0%9F%94%A5;Test+Architect+%7C+CI%2FCD+%26+Cloud+%E2%98%81%EF%B8%8F;Python+%7C+Robot+Framework+%7C+Playwright+%F0%9F%90%8D;12%2B+Years+across+Telecom%2C+EV+%26+Cloud+%F0%9F%9A%80;Exploring+AI-Driven+QA+%26+LLM+Testing+%F0%9F%A4%96)](https://git.io/typing-svg)
+| Path | Description |
+| --- | --- |
+| [`calci_python/`](calci_python/) | Command-line calculator with arithmetic and unit conversions. |
+| [`python_practice_programs/`](python_practice_programs/) | Python exercises covering JSON, APIs, collections, strings, and algorithms. |
+| [`java_practice_programs/`](java_practice_programs/) | Java examples for API calls and JSON processing. |
+| [`robot_practice_programs/`](robot_practice_programs/) | Robot Framework examples for web and API testing. |
+| [`The-Ultimate-Python-Course/`](The-Ultimate-Python-Course/) | Course exercises, projects, and reference material. |
+| [`sql_commands.txt`](sql_commands.txt) | SQL command notes and examples. |
 
-</div>
+## Showcase projects
 
----
+The following self-contained project templates are ready to be split into their own repositories when published:
 
-## 👋 About Me
+| Project | Focus |
+| --- | --- |
+| [`showcase-projects/python-api-automation-framework/`](showcase-projects/python-api-automation-framework/) | Pytest API tests with an injectable client, Docker, and CI. |
+| [`showcase-projects/robot-framework-api-suite/`](showcase-projects/robot-framework-api-suite/) | Robot Framework API suite organized with reusable resources and tags. |
+| [`showcase-projects/playwright-ui-automation/`](showcase-projects/playwright-ui-automation/) | Playwright UI suite using the Page Object Model and failure artifacts. |
 
-```python
-class AshishKumar:
-    role        = "Staff QA Automation Engineer | Test Architect"
-    company     = "ChargePoint"                         # Current
-    location    = "Bangalore, India"
-    experience  = "12+ years"
-    domains     = ["EV Charging", "Telecom", "Networking", "Cloud", "Security"]
+## Quick start
 
-    skills = {
-        "automation"  : ["Python", "Robot Framework", "Java", "Playwright", "REST Assured", "PyATS"],
-        "ci_cd"       : ["GitLab CI", "GitHub Actions", "Jenkins", "Docker", "Kubernetes"],
-        "cloud"       : ["AWS (EC2, CloudWatch)", "VMware", "vSphere"],
-        "observability": ["Grafana", "Prometheus", "AWS CloudWatch"],
-        "performance" : ["JMeter", "k6", "Wireshark"],
-        "security"    : ["ZAP", "Burp Suite", "OpenSSL"],
-        "databases"   : ["PostgreSQL", "SQL"],
-        "methodology" : ["Agile", "Scrum", "SAFe", "Shift-Left", "TDD", "BDD"],
-    }
+Run the calculator with Python 3.9 or later:
 
-    currently_exploring = [
-        "AI-driven test generation",
-        "LLM-assisted QA",
-        "Prompt engineering for test coverage",
-        "Dockerized GitLab pipelines",
-    ]
-
-    achievements = {
-        "regression_cycles_reduced" : "45%",
-        "feedback_loops_improved"   : "80%",
-        "test_execution_faster"     : "50%+",
-        "flaky_test_rate"           : "<1%",
-        "defect_leakage_reduced"    : "20%",
-        "sprint_delivery"           : "95% on-time",
-    }
-
-    def say_hi(self):
-        print("Building quality that scales. One test at a time. 🚀")
+```bash
+python3 calci_python/main.py
 ```
 
----
+Some practice scripts call external APIs or expect local JSON/text files. Read the script before running it and provide any required inputs or credentials locally; do not commit secrets.
 
-## 🏆 Key Achievements
+## Quality checks
 
-<div align="center">
+The calculator has a small automated test suite and is checked on every push and pull request.
 
-| 🎯 Metric | 📈 Impact |
-|-----------|-----------|
-| Regression Cycles | ⬇️ Reduced by **45%** |
-| Feedback Loops | ⚡ Improved by **80%** |
-| Test Execution Time | ⬇️ Cut by **50%+** |
-| Flaky Test Rate | ✅ Maintained at **< 1%** |
-| Defect Leakage | ⬇️ Lowered by **20%** |
-| Sprint Delivery | 🏅 **95%** on-time as Scrum Master |
-
-</div>
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-**Automation & Testing**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Robot Framework](https://img.shields.io/badge/Robot%20Framework-000000?style=for-the-badge&logo=robotframework&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-**CI/CD & DevOps**
-
-![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-
-**Cloud & Observability**
-
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-**Performance & Security**
-
-![JMeter](https://img.shields.io/badge/JMeter-D22128?style=for-the-badge&logo=apachejmeter&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-
-</div>
-
----
-
-## 💼 Experience Timeline
-
-```
-2025 – Present  🔵  ChargePoint          →  Staff QA Engineer (EV Charging Platform)
-2022 – 2025     🔵  BT Group             →  QA Engineering Professional (OSS / Telecom)
-2021 – 2022     🔵  TCS (BT Engagement)  →  Technical Lead – QA Delivery
-2014 – 2021     🔵  Wipro                →  Senior QA / Test Automation Engineer
-                        ├── Nokia        →  NMS & API Management
-                        ├── Cisco        →  TelePresence & Network Provisioning
-                        ├── Capital One  →  AWS Cloud Migration & Data Integrity
-                        ├── HBI          →  Security & Access Management
-                        ├── Cisco        →  TMS & Web Security Appliance
-                        └── Ericsson     →  SmartEdge Routers & ENM/NMS
+```bash
+python3 -m pip install -r requirements-dev.txt
+python3 -m ruff check calci_python tests
+python3 -m pytest
 ```
 
----
+## Repository conventions
 
-## 🌱 Currently Exploring
+- Keep standalone, portfolio-ready projects in their own repositories with setup instructions, tests, and CI.
+- Keep learning exercises self-contained and label any required data or dependencies.
+- Do not add generated files, credentials, or personal documents intended for private distribution.
 
-<div align="center">
+## License
 
-| 🤖 AI-Driven Test Generation | 🧠 LLM-Assisted QA |
-|:---:|:---:|
-| **Prompt Engineering for QA** | **Dockerized GitLab Pipelines** |
-| **Azure Automation** | **k6 Performance at Scale** |
-
-</div>
-
----
-
-## 📜 Certifications
-
-<div align="center">
-
-| Badge | Certification |
-|-------|--------------|
-| 🏅 | **PSM I** – Professional Scrum Master |
-| 🏅 | **PSPO I** – Professional Scrum Product Owner |
-| 🏅 | **Google** – IT Automation with Python |
-| 🏅 | **DeepLearning.AI** – Generative AI for Software Development |
-| 🎯 | **PMP** – Project Management Professional *(In Progress)* |
-| 🛡️ | **Cisco** – Security Ninja, Advanced White Belt |
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ashishkumar&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&title_color=2E75B6&icon_color=2E75B6&border_color=1F4E79"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ashishkumar&layout=compact&langs_count=8&theme=github_dark&title_color=2E75B6&border_color=1F4E79"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=ashishkumar&theme=github-dark-blue&border=1F4E79&ring=2E75B6&fire=2E75B6&currStreakLabel=2E75B6)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 📁 Pinned Repositories *(Coming Soon)*
-
-> 🚧 Building out public automation framework samples — watch this space!
-
-| Repo | Description | Stack |
-|------|-------------|-------|
-| `python-api-automation-framework` | REST API test framework with data-driven design | Python, REST Assured, Pytest |
-| `robot-framework-starter` | Modular Robot Framework template with CI/CD | Robot Framework, GitLab CI |
-| `playwright-ui-automation` | Cross-browser UI automation with Playwright | Python, Playwright, Docker |
-| `grafana-qa-dashboard` | Test health dashboards integrated with CI | Grafana, Prometheus, GitLab CI |
-| `k6-performance-suite` | Load & performance test suite | k6, InfluxDB, Grafana |
-
----
-
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1F4E79&height=120&section=footer&text=Building%20Quality%20That%20Scales&fontSize=24&fontColor=FFFFFF&animation=fadeIn&fontAlignY=65"/>
-
-</div>
+This project is available under the [MIT License](LICENSE).

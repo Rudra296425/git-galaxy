@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: "/"
+    schedule:
+      interval: monthly
+  - package-ecosystem: pip
+    directory: "/showcase-projects/python-api-automation-framework"
+    schedule:
+      interval: monthly
+  - package-ecosystem: pip
+    directory: "/showcase-projects/robot-framework-api-suite"
+    schedule:
+      interval: monthly
+  - package-ecosystem: npm
+    directory: "/showcase-projects/playwright-ui-automation"
+    schedule:
+      interval: monthly

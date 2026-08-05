@@ -1,2 +1,11 @@
-.DS_StoreThe-Ultimate-Python-Course/HandWritten_Python_Complete_Notes.pdf
+.DS_Store
+
 The-Ultimate-Python-Course/HandWritten_Python_Complete_Notes.pdf
+
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+results/
+playwright-report/
+test-results/
+node_modules/
