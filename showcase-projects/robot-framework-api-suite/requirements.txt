@@ -1,2 +1,2 @@
 robotframework>=7.0,<8.0
-robotframework-requests>=0.9,<1.0
+robotframework-requests>=0.9.7,<1.0
