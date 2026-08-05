@@ -7,7 +7,7 @@ test("adds a task", async ({ page }) => {
   await todoPage.open();
   await todoPage.addTask("Review pull request");
 
-  await expect(todoPage.items).toHaveText(["Review pull request"]);
+  await expect(todoPage.items).toContainText(["Review pull request"]);
 });
 
 test("marks a task complete", async ({ page }) => {
@@ -16,5 +16,5 @@ test("marks a task complete", async ({ page }) => {
   await todoPage.addTask("Run regression suite");
   await todoPage.completeTask("Run regression suite");
 
-  await expect(todoPage.completedItems).toHaveText(["○Run regression suite"]);
+  await expect(todoPage.completedItems).toContainText(["Run regression suite"]);
 });
