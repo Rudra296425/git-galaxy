@@ -1,5 +1,9 @@
 # Git Galaxy
 
+<!-- Dynamic header banner -->
+<h1 align="center">Hi, I'm Ashish Kumar 👋</h1>
+<h3 align="center">Staff QA Automation Engineer | Test Architect | CI/CD & Cloud | 12+ Years</h3>
+
 A collection of programming exercises, QA automation examples, and Python learning projects.
 
 This repository is a learning archive rather than a single application. Its most self-contained runnable example is the interactive calculator in [`calci_python/`](calci_python/).
@@ -54,3 +58,77 @@ python3 -m pytest
 ## License
 
 This project is available under the [MIT License](LICENSE).
+
+## Currently exploring
+
+| 🤖 AI-Driven Test Generation | 🧠 LLM-Assisted QA |
+|:---:|:---:|
+| **Prompt Engineering for QA** | **Dockerized GitLab Pipelines** |
+| **Azure Automation** | **k6 Performance at Scale** |
+
+</div>
+
+---
+
+## 📜 Certifications
+
+<div align="center">
+
+| Badge | Certification |
+|-------|--------------|
+| 🏅 | **PSM I** – Professional Scrum Master |
+| 🏅 | **PSPO I** – Professional Scrum Product Owner |
+| 🏅 | **Google** – IT Automation with Python |
+| 🏅 | **DeepLearning.AI** – Generative AI for Software Development |
+| 🎯 | **PMP** – Project Management Professional *(In Progress)* |
+| 🛡️ | **Cisco** – Security Ninja, Advanced White Belt |
+
+</div>
+
+---
+
+## 📊 Skills Snapshot
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-Expert-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Robot Framework](https://img.shields.io/badge/Robot%20Framework-Advanced-000000?style=for-the-badge&logo=robotframework&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-Expert-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Cloud QA](https://img.shields.io/badge/Cloud%20QA-Advanced-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Years](https://img.shields.io/badge/Experience-12%2B%20Years-2E75B6?style=for-the-badge&logo=buffer&logoColor=white)
+
+</div>
+
+---
+
+## 📈 Activity
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=Rudra296425&color=2E75B6&style=for-the-badge&label=PROFILE+VIEWS)
+![Repos](https://img.shields.io/badge/Public%20Repos-3-1F4E79?style=for-the-badge&logo=github&logoColor=white)
+![Open to Work](https://img.shields.io/badge/Open%20to-Staff%20QA%20Roles-22c55e?style=for-the-badge&logo=briefcase&logoColor=white)
+
+</div>
+
+---
+
+## 📁 Pinned Repositories *(Coming Soon)*
+
+> 🚧 Building out public automation framework samples — watch this space!
+
+| Repo | Description | Stack |
+|------|-------------|-------|
+| `python-api-automation-framework` | REST API test framework with data-driven design | Python, REST Assured, Pytest |
+| `robot-framework-starter` | Modular Robot Framework template with CI/CD | Robot Framework, GitLab CI |
+| `playwright-ui-automation` | Cross-browser UI automation with Playwright | Python, Playwright, Docker |
+| `grafana-qa-dashboard` | Test health dashboards integrated with CI | Grafana, Prometheus, GitLab CI |
+| `k6-performance-suite` | Load & performance test suite | k6, InfluxDB, Grafana |
+
+---
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1F4E79&height=120&section=footer&text=Building%20Quality%20That%20Scales&fontSize=24&fontColor=FFFFFF&animation=fadeIn&fontAlignY=65"/>
+
+</div>
