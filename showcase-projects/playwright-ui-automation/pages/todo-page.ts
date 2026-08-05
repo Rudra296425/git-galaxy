@@ -22,7 +22,7 @@ export class TodoPage {
         document.querySelector('button').addEventListener('click', () => {
           const input = document.querySelector('input');
           if (input.value) document.querySelector('ul').insertAdjacentHTML(
-            'beforeend', '<li><button aria-label="Complete task">○</button>' + input.value + '</li>'
+            'beforeend', '<li><button aria-label="Complete task"><span aria-hidden="true">○</span></button>' + input.value + '</li>'
           );
           document.querySelectorAll('[aria-label="Complete task"]').forEach(button =>
             button.addEventListener('click', () => button.parentElement.classList.toggle('completed'))
@@ -38,7 +38,7 @@ export class TodoPage {
   }
 
   async completeTask(task: string): Promise<void> {
-    await this.page.getByRole("listitem", { name: new RegExp(task) })
+    await this.items.filter({ hasText: task })
       .getByRole("button", { name: "Complete task" }).click();
   }
 }
